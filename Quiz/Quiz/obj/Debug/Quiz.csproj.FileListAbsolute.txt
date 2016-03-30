@@ -1,0 +1,9 @@
+D:\VisualStudio Projects\Quiz\Quiz\bin\Debug\Quiz.exe.config
+D:\VisualStudio Projects\Quiz\Quiz\bin\Debug\Quiz.exe
+D:\VisualStudio Projects\Quiz\Quiz\bin\Debug\Quiz.pdb
+D:\VisualStudio Projects\Quiz\Quiz\obj\Debug\Quiz.csprojResolveAssemblyReference.cache
+D:\VisualStudio Projects\Quiz\Quiz\obj\Debug\Quiz.Form1.resources
+D:\VisualStudio Projects\Quiz\Quiz\obj\Debug\Quiz.Properties.Resources.resources
+D:\VisualStudio Projects\Quiz\Quiz\obj\Debug\Quiz.csproj.GenerateResource.Cache
+D:\VisualStudio Projects\Quiz\Quiz\obj\Debug\Quiz.exe
+D:\VisualStudio Projects\Quiz\Quiz\obj\Debug\Quiz.pdb
