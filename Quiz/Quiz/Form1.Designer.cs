@@ -164,6 +164,7 @@
             this.checkBox2.TabIndex = 8;
             this.checkBox2.Text = "10.2.4.10";
             this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // checkBox3
             // 
@@ -176,6 +177,7 @@
             this.checkBox3.TabIndex = 10;
             this.checkBox3.Text = "192.168.1.10";
             this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
             // checkBox4
             // 
@@ -311,7 +313,6 @@
             this.groupBox1.Size = new System.Drawing.Size(413, 58);
             this.groupBox1.TabIndex = 18;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBox1";
             // 
             // groupBox2
             // 
@@ -325,7 +326,6 @@
             this.groupBox2.Size = new System.Drawing.Size(413, 64);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
             // 
             // button1
             // 
@@ -349,7 +349,6 @@
             this.groupBox3.Size = new System.Drawing.Size(413, 76);
             this.groupBox3.TabIndex = 21;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
             // 
             // Form1
             // 

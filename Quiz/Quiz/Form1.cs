@@ -54,14 +54,47 @@ namespace Quiz
             }
         }
 
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked)
+            {
+                counter++;
+            }
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox3.Checked)
+            {
+                counter++;
+            }
+        }
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            if (comboBox1.SelectedIndex.Equals(3))
+            {
+                counter++;
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Pocet spravnych odpovedi:" + counter, "Score", MessageBoxButtons.OKCancel);
+            if (isGameOver())
+            {
+                MessageBox.Show("Gratulujeme! \n Pocet spravnych odpovedi:" + counter, "Score", MessageBoxButtons.OKCancel);
+            }
+            else
+            {
+                MessageBox.Show("Atleast something.\nPocet spravnych odpovedi:" + counter, "Score", MessageBoxButtons.OKCancel);
+            }
+        }
+
+        private bool isGameOver()
+        {
+            if (counter == 5)
+                 return true;
+            else return false;
         }
     }
 }
